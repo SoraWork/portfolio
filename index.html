@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nguyen Hoai Phong - Portfolio</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- script
+	================================================== -->
+    <script src="js/modernizr.js"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navigation-bar" tabindex="0">
+
+
+    <div class=" offcanvas-btn text-end m-3">
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"><iconify-icon icon="ci:hamburger-lg"
+                style="font-size: 30px;"></iconify-icon></button>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <header class="hero position-fixed">
+                <div class="container hero-container text-center align-content-between">
+
+                    <div>
+                        <img src="images/ava.png" class="hero-img mb-4 rounded-circle" alt="Bootstrap Themes"
+                            width="140" height="140" loading="lazy">
+
+
+                        <h2 class="fw-bold">Nguyen Hoai Phong</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam risus nam ma aliquet.
+                            Libero
+                            porta in sodales.</p>
+                        <div class="social-icon my-2">
+                            <p>
+                                <a class="social-link mx-3 active" href="#"> <iconify-icon
+                                        icon="icomoon-free:facebook"></iconify-icon> </a>
+                                <a class="social-link mx-3 " href="#"> <iconify-icon
+                                        icon="icomoon-free:instagram"></iconify-icon> </a>
+                                <a class="social-link mx-3 " href="#"> <iconify-icon
+                                        icon="icomoon-free:twitter"></iconify-icon> </a>
+                                <a class="social-link mx-3 " href="#"> <iconify-icon
+                                        icon="icomoon-free:youtube"></iconify-icon> </a>
+                            </p>
+
+                        </div>
+
+                        <h4 class=" text-uppercase text-light fs-5 fw-bold py-2 mx-5 mt-4 ">Pro Pages</h4>
+
+                        <ul class="text-center list-unstyled">
+                            <li><a href="blog-single.html" class="text-uppercase ">Blog-Single
+                                    <span class="badge bg-secondary">Pro</span></a></li>
+                            <li><a href="services-single.html" class="text-uppercase ">Service-Single
+                                    <span class="badge bg-secondary">Pro</span></a></li>
+                            <li><a href="portfolio-single.html" class="text-uppercase ">Portfolio-Single
+                                    <span class="badge bg-secondary">Pro</span></a></li>
+                            <li><a href="contact.html" class="text-uppercase ">Contact <span
+                                        class="badge bg-secondary">Pro</span></a></li>
+                            <li><a href="team.html" class="text-uppercase ">My Team <span
+                                        class="badge bg-secondary">Pro</span></a></li>
+                            <li><a href="review.html" class="text-uppercase ">Reviews <span
+                                        class="badge bg-secondary">Pro</span></a></li>
+                            <li><a href="faq.html" class="text-uppercase ">FAQs <span
+                                        class="badge bg-secondary">Pro</span></a></li>
+                        </ul>
+
+                        <div>
+                            <a href="https://templatesjungle.gumroad.com/l/carl-free-bootstrap-5-html-website-template-for-portfolio"
+                                class="btn btn-primary get-pro text-uppercase rounded-5 py-3 px-4 mt-2">Get
+                                Pro <iconify-icon icon="mdi:cart" class="ps-2" style="color: white;"></iconify-icon>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mb-5">
+                        <p class="copyright ">© Free HTML template by: <a href="https://templatesjungle.com/">
+                                <u>TemplatesJungle </u> </a> </p>
+                    </div>
+
+
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <section id="navigation-bar" class="navigation position-fixed ">
+
+
+                <ul class="nav nav-pills text-center align-items-center mt-5 ms-xl-5 ms-3 ">
+                    <li>
+                        <a href="#home" class="nav-link active rounded-0" aria-current="page" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Home" data-bs-original-title="Home">
+                            <iconify-icon icon="ic:round-home"></iconify-icon>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Dashboard" data-bs-original-title="Dashboard">
+                            <iconify-icon icon="ic:round-person"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Orders" data-bs-original-title="Orders">
+                            <iconify-icon icon="ic:round-school"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link rounded-0" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Products" data-bs-original-title="Products">
+                            <iconify-icon icon="ic:round-business-center"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Customers" data-bs-original-title="Customers">
+                            <iconify-icon icon="ic:round-menu-book"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Customers" data-bs-original-title="Customers">
+                            <iconify-icon icon="ic:round-phone"></iconify-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <div class="col-xl-6 offset-xl-2">
+                <div class="container content-container">
+
+                    <section id="home" class="mt-0">
+
+                        <div class=" py-lg-4 my-lg-4 text-center">
+                            <h1 class="fw-bold">Hi I’m Phong</h1>
+                            <div class="col-lg-10 mx-auto">
+                                <p>Java Intern | Back-end Developer (Spring Boot)</p>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="about" class="mt-0">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">About Me</h1>
+                            <p class="lead-paragraph my-4"> I am <b>Nguyen Hoai Phong</b>, a passionate <b>Java
+                                    Intern</b> with a strong foundation in
+                                <b>Spring Boot, Microservices, and RESTful APIs</b>. Currently pursuing my
+                                degree in <b>Software Engineering at HUCE</b>, I have hands-on experience in
+                                building scalable back-end systems and full-stack web applications.
+                                <br><br>
+                                I thrive in <b>Agile teams</b>, enjoy solving challenging problems, and continuously
+                                expand my knowledge of modern technologies such as <b>Docker, Swagger, and SQL/NoSQL
+                                    databases</b>.
+                                <br><br>
+                                My short-term goal is to contribute effectively to real-world projects,
+                                while my long-term ambition is to become a <b>senior developer</b> specializing in
+                                designing reliable, high-performance distributed systems.
+                            </p>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class=" py-4 my-4 ">
+                            <h2 class="fw-bold">Personal Info</h2>
+
+                            <ul class="list-unstyled">
+                                <li><b>Age:</b> 22 </li>
+                                <li><b>Residence:</b> Viet Nam </li>
+                                <li><b>Address:</b> Yen Vien, Gia Lam, Ha Noi</li>
+                                <li><b>E-mail:</b> phongnh23.work@gmail.com</li>
+                                <li><b>Phone:</b> 0986906214</li>
+                            </ul>
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                    </section>
+
+                    <section id="resume">
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Resume</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+
+                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">My Skills</h2>
+
+
+                            <div id="progressbar-tooltip-id" class="progressbar-tooltip">
+
+                                <h4>BackEnd: Java</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="90" data-title=""></div>
+                                <h4>FrontEnd</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="70" data-title=""></div>
+                                <h4>Database</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="80" data-title=""></div>
+                                <h4>Github</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="70" data-title=""></div>
+                            </div>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">Education</h2>
+
+                            <div class="row justify-content-start" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info ">
+                                        <p class="meta-date">2021 - 2025
+                                            <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">HUCE - Hanoi University of Civil Engineering</a>
+                                        </p>
+                                        <h3 class="info-title">Bachelor of Software Engineering</h3>
+                                        <p>
+                                            Currently pursuing a <b>Bachelor’s degree in Software Engineering</b>,
+                                            where I have built a solid foundation in <b>Java, Spring Framework,
+                                                Database Systems, and Web Development</b>.
+                                            <br><br>
+                                            Actively engaged in academic projects that focus on <b>system design,
+                                                distributed applications, and real-world problem solving</b>, helping me
+                                            strengthen both technical expertise and teamwork skills.
+                                            <br><br>
+                                            Expected to graduate in <b>2025</b> with strong knowledge of
+                                            <b>back-end development, software architecture, and Agile methodologies</b>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="portfolio">
+
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Certification and Degree</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+
+                        <div class="py-4 my-4">
+                            <div class="isotope-container row g-4 justify-content-center">
+                                <div class="item website col-md-4 col-sm-6">
+                                    <a href="images/Degree.png" title="Degree" class="image-link d-block">
+                                        <img class="portfolio-img img-fluid rounded shadow" src="images/Degree.png"
+                                            alt="Degree">
+                                        <div class="description text-center mt-2">
+                                            <h4>Degree</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item branding col-md-4 col-sm-6">
+                                    <a href="images/Certification.png" title="Certification" class="image-link d-block">
+                                        <img class="portfolio-img img-fluid rounded shadow"
+                                            src="images/Certification.png" alt="Certification">
+                                        <div class="description text-center mt-2">
+                                            <h4>Certification</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                    <section id="blog">
+                        <div class="py-4 my-4">
+                            <h1 class="fw-bold mt-5">Projects</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="container py-4 my-4">
+                            <div class="row g-4">
+                                <!-- Criminal Investigation Management System -->
+                                <article class="col-md-6">
+                                    <div class="project-item p-3 rounded shadow h-100">
+                                        <h3 class="fw-bold">Criminal Investigation Management System</h3>
+                                        <p><b>Role:</b> Back End Developer</p>
+                                        <p><b>Size Project:</b> 20+</p>
+                                        <p>
+                                            Contributed to building a scalable microservices-based system for the U.S.
+                                            market.
+                                            Implemented business logic, designed RESTful APIs, and ensured service
+                                            integration.
+                                            Collaborated with cross-functional teams under Agile Scrum.
+                                        </p>
+                                        <span class="badge bg-primary">Java</span>
+                                        <span class="badge bg-secondary">Spring Boot</span>
+                                        <span class="badge bg-dark">Microservices</span>
+                                    </div>
+                                </article>
+
+                                <!-- Recipe Management -->
+                                <article class="col-md-6">
+                                    <div class="project-item p-3 rounded shadow h-100">
+                                        <h3 class="fw-bold">Recipe Management</h3>
+                                        <p><b>Role:</b> Full-stack (solo)</p>
+                                        <p>
+                                            Built a secure RESTful API using Spring Boot + Spring Security.
+                                            Implemented JWT authentication, RBAC, and HATEOAS.
+                                            Designed full backend architecture and interactive docs with Swagger.
+                                        </p>
+                                        <p><a href="https://github.com/SoraWork/API-Recipe" target="_blank">GitHub
+                                                Repo</a></p>
+                                        <span class="badge bg-primary">Spring Boot</span>
+                                        <span class="badge bg-dark">JWT</span>
+                                        <span class="badge bg-info">Swagger</span>
+                                    </div>
+                                </article>
+
+                                <!-- Movie Theater -->
+                                <article class="col-md-6">
+                                    <div class="project-item p-3 rounded shadow h-100">
+                                        <h3 class="fw-bold">Movie Theater</h3>
+                                        <p><b>Role:</b> Full-stack (solo)</p>
+                                        <p>
+                                            Developed a full-stack web app with Spring MVC & Thymeleaf.
+                                            Features: movie management, ticket booking, and user accounts.
+                                            Integrated Spring Security for authentication & SQL Server for database.
+                                        </p>
+                                        <p><a href="https://github.com/SoraWork/movietheater_mvc" target="_blank">GitHub
+                                                Repo</a></p>
+                                        <span class="badge bg-primary">Spring MVC</span>
+                                        <span class="badge bg-warning">Thymeleaf</span>
+                                        <span class="badge bg-dark">SQL Server</span>
+                                    </div>
+                                </article>
+                                <!-- Movie Theater -->
+                                <article class="col-md-6">
+                                    <div class="project-item p-3 rounded shadow h-100">
+                                        <h3 class="fw-bold">Car Rental</h3>
+                                        <p><b>Role:</b> Full-stack</p>
+                                        <p><b>Size Project:</b>3</p>
+                                        <p>
+                                            CarRental is an online car rental system with role-based authentication,
+                                            ensuring clear
+                                            access control for car owners and guests. The platform streamlines vehicle
+                                            management,
+                                            booking, and secure transactions
+                                        </p>
+                                        <p><a href="https://github.com/SoraWork/CarRental_V1" target="_blank">GitHub
+                                                Repo</a></p>
+                                        <span class="badge bg-primary">Spring MVC</span>
+                                        <span class="badge bg-warning">Thymeleaf</span>
+                                        <span class="badge bg-dark">SQL Server</span>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="contact">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Contact</h1>
+                            <p>Wanna talk about project, please feel free to contact us.</p>
+                        </div>
+
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+
+                            <div class="row justify-content-around">
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"><iconify-icon icon="ic:outline-phone"></iconify-icon>
+                                        0986906214</p>
+                                </div>
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"><iconify-icon icon="ic:outline-email"></iconify-icon>
+                                        phongnh23.work@gmail.com </p>
+                                </div>
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"> <iconify-icon
+                                            icon="ic:outline-location-on"></iconify-icon> Yen Vien, Gia Lam, Ha Noi</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+
+
+                        <div class="py-4 my-4 ">
+
+                            <h2 class="fw-bold pb-4">Google Map</h2>
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe width="100%" height="500" id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=Y%C3%AAn%20Vi%C3%AAn,%20Gia%20L%C3%A2m,%20H%C3%A0%20N%E1%BB%99i&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                    </iframe>
+                                    <style>
+                                        .mapouter {
+                                            position: relative;
+                                            text-align: right;
+                                            height: 500px;
+                                            width: 100%;
+                                        }
+
+                                        .gmap_canvas {
+                                            overflow: hidden;
+                                            background: none !important;
+                                            height: 500px;
+                                            width: 100%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+
+                    </section>
+
+                </div>
+            </div>
+
+        <div class="hero-sidebar col-xl-3 offset-xl-1">
+    <header class="hero position-fixed">
+        <div class="container hero-container text-center my-4 pt-3 align-content-between">
+
+            <div>
+                <!-- Avatar -->
+                <img src="images/ava.png" class="hero-img mb-4 rounded-circle shadow" alt="Profile Picture"
+                    width="150" height="150" loading="lazy">
+
+                <!-- Name -->
+                <h2 class="fw-bold mt-3">Nguyen Hoai Phong</h2>
+
+                <!-- Tagline -->
+                <p class="text-muted px-3">
+                    Java Developer | Back-End Developer <br>
+                    Passionate about <b>Spring Boot, Microservices, and Scalable Systems</b>
+                </p>
+
+                <!-- Social Icons -->
+                <div class="social-icon my-3">
+                    <a class="social-link mx-2" href="https://www.facebook.com/nguyen.hoai.phong.637870" target="_blank">
+                        <iconify-icon icon="icomoon-free:facebook" style="font-size: 24px;"></iconify-icon>
+                    </a>
+                    <a class="social-link mx-2" href="https://github.com/SoraWork" target="_blank">
+                        <iconify-icon icon="mdi:github" style="font-size: 24px;"></iconify-icon>
+                    </a>
+                    <a class="social-link mx-2" href="https://www.linkedin.com/in/sora-sora-368642356/" target="_blank">
+                        <iconify-icon icon="mdi:linkedin" style="font-size: 24px;"></iconify-icon>
+                    </a>
+                    <a class="social-link mx-2" href="mailto:phongnh23.work@gmail.com">
+                        <iconify-icon icon="mdi:email" style="font-size: 24px;"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+
+</body>
+
+</html>
